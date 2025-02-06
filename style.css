@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note-app {
+    width: 700px;
+}
+
+.note-app .title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+
+.note-app .cerate-note button {
+   background-color: #3D633B; 
+   color: #fff;
+   padding: 12px;
+   width: 700px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 35px;
+}
+
+.note-box {
+    background-color: #D2D2D2;
+    border-radius: 7px;
+    color: #fff;
+    padding: 10px;
+}
+
+.remove-edit {
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
