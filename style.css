@@ -25,16 +25,29 @@
    margin-bottom: 35px;
 }
 
-.note-box {
+.note-container .note-box {
     background-color: #D2D2D2;
     border-radius: 7px;
     color: #fff;
     padding: 10px;
+    margin-top: 10px;
 }
 
-.remove-edit {
+.note-container .remove-edit {
     justify-content: flex-end;
     display: flex;
     gap: 10px;
     margin-top: 15px;
+}
+
+.note-container .remove-edit button {
+    background-color: transparent;
+    border: none;
+}
+
+.note-container .note-box .textarea {
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
 }
